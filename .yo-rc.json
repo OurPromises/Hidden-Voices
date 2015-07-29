@@ -1,0 +1,17 @@
+{
+  "generator-assemble": {
+    "projectName": "Hidden Voices",
+    "projectDesc": "The best project ever.",
+    "authorLogin": "OurPromises",
+    "installPlugin": true,
+    "author": {
+      "name": "Das, Deb",
+      "login": "assemble",
+      "email": "Debabrata.Das@washpost.com"
+    },
+    "plugins": [
+      "assemble-contrib-permalinks",
+      "assemble-contrib-sitemap"
+    ]
+  }
+}
