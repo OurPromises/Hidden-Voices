@@ -88,9 +88,9 @@ module.exports = function(grunt) {
       },
       theme: {
         expand: true,
-        cwd: 'src/assets/',
+        cwd: 'src/assets/theme/',
         src: '**',
-        dest: '<%= config.dist %>/assets/css/'
+        dest: '<%= config.dist %>/assets/theme/'
       }
     },
 
