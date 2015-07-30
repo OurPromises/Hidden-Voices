@@ -80,12 +80,6 @@ module.exports = function(grunt) {
     },
 
     copy: {
-      bootstrap: {
-        expand: true,
-        cwd: 'bower_components/bootstrap/dist/',
-        src: '**',
-        dest: '<%= config.dist %>/assets/'
-      },
       theme: {
         expand: true,
         cwd: 'src/assets/theme/',
